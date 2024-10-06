@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  background: var(--blue-dark);
+  border-radius: 8px;
+  border: none;
+  color: var(--gray-100);
+  padding: 1rem;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: var(--blue);
+}

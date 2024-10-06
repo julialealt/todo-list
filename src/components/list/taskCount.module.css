@@ -1,0 +1,41 @@
+.wrapCreated {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+.wrapConcluded {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.titleCreated {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.countTotal {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.titleConcluded {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.counter {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 0.125rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
